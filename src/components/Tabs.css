@@ -1,0 +1,24 @@
+.tabs {
+  text-align: center;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding: 30px 20px 0;
+}
+
+.tabs__item {
+  width: calc(100% / 3);
+  cursor: pointer;
+  padding: 25px;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.tabs__item_active {
+  background-color: rgb(241, 235, 226);
+}
+
+.tabs__item:hover {
+  background-color: antiquewhite;
+}
